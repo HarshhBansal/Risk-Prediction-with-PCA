@@ -72,6 +72,7 @@ Feature importance of PCA components
 Precision, Recall, F1-score per class
 
 🚀 Getting Started
+
 1️⃣ Install Dependencies
 pip install pandas numpy scikit-learn imbalanced-learn xgboost matplotlib seaborn
 
@@ -82,7 +83,7 @@ Case 3: python Case3.py
 Ensure data.csv is in the same folder as the scripts.
 
 📊 Results Overview
-
+![Output](results/Img04.png)
 Case 1: Feature importance using Random Forest; Logistic Regression predictions.
 Case 2: Feature importance using XGBoost; Random Forest predictions.
 Case 3: PCA-based feature extraction; multiple classifier training; detailed visualizations.
